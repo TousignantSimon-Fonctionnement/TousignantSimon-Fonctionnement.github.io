@@ -18,7 +18,7 @@
     
     
       
-        <title>Révision du cours de programmation 1 et compléments d'information - Cours de Fonctionnement de l'ordinateur</title>
+        <title>Navigation de base en windows 11 - Cours de Fonctionnement de l'ordinateur</title>
       
     
     
@@ -113,7 +113,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#revision-du-cours-de-programmation-1-et-complements-dinformation" class="md-skip">
+        <a href="#navigation-de-base-en-windows-11" class="md-skip">
           Aller au contenu
         </a>
       
@@ -149,7 +149,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Révision du cours de programmation 1 et compléments d'information
+              Navigation de base en windows 11
             
           </span>
         </div>
@@ -548,309 +548,19 @@
   
 
 
-<h1 id="revision-du-cours-de-programmation-1-et-complements-dinformation">Révision du cours de programmation 1 et compléments d'information</h1>
-<h2 id="les-types-de-bases">Les types de bases</h2>
-<h3 id="entiers">Entiers</h3>
-<table>
-<thead>
-<tr>
-<th>Type</th>
-<th>Nombre d'octets</th>
-<th>Minimum</th>
-<th>Maximum</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>short</td>
-<td>2 octets</td>
-<td>-32768</td>
-<td>32767</td>
-<td></td>
-</tr>
-<tr>
-<td>ushort</td>
-<td>2 octets</td>
-<td>0</td>
-<td>65535</td>
-<td></td>
-</tr>
-<tr>
-<td>int</td>
-<td>4 octets</td>
-<td>-2 147 483 648</td>
-<td>2 147 483 647</td>
-<td></td>
-</tr>
-<tr>
-<td>uint</td>
-<td>4 octets</td>
-<td>0</td>
-<td>4 294 967 295</td>
-<td></td>
-</tr>
-<tr>
-<td>long</td>
-<td>8 octets</td>
-<td>9 223 372 036 854 775 808</td>
-<td>9 223 372 036 854 775 807</td>
-<td></td>
-</tr>
-<tr>
-<td>ulong</td>
-<td>8 octets</td>
-<td>0</td>
-<td>18 446 744 073 709 551 615</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h3 id="virgules">Virgules</h3>
-<table>
-<thead>
-<tr>
-<th>Type</th>
-<th>Nombre d'octets</th>
-<th>Minimum</th>
-<th>Maximum</th>
-<th>precision</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>float</td>
-<td>4 octets</td>
-<td>±1.5 x 10^−45</td>
-<td>±3.4 x 10^38</td>
-<td>~6-9 nombres</td>
-</tr>
-<tr>
-<td>double</td>
-<td>8 octets</td>
-<td>±5.0 × 10^−324</td>
-<td>±1.7 × 10^308</td>
-<td>~15-17 nombres</td>
-</tr>
-<tr>
-<td>decimal</td>
-<td>16 octets</td>
-<td>±1.0 x 10^-28</td>
-<td>±7.9228 x 10^28</td>
-<td>28-29 nombres</td>
-</tr>
-</tbody>
-</table>
-<h3 id="logiques">Logiques</h3>
-<table>
-<thead>
-<tr>
-<th>Type</th>
-<th>Nombre d'octets</th>
-<th>Valeurs</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>bool</td>
-<td>1 octet</td>
-<td>true/false</td>
-</tr>
-</tbody>
-</table>
-<h3 id="textuels">Textuels</h3>
-<table>
-<thead>
-<tr>
-<th>Type</th>
-<th>Nombre d'octets</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>char</td>
-<td>2 octets</td>
-<td>1 caractère</td>
-</tr>
-<tr>
-<td>string</td>
-<td>0 à 2,147,483,647 x 2 octets (char)</td>
-<td>2 147 483 647 caractères</td>
-</tr>
-</tbody>
-</table>
-<h3 id="binaires">Binaires</h3>
-<table>
-<thead>
-<tr>
-<th>Type</th>
-<th>Nombre d'octets</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>byte</td>
-<td>1 octets</td>
-<td>Valeurs de 0 à 255</td>
-</tr>
-<tr>
-<td>sbyte</td>
-<td>1 octet</td>
-<td>Valeurs de -128 à 127</td>
-</tr>
-</tbody>
-</table>
-<h3 id="les-tableaux-unidimentionnels">Les tableaux unidimentionnels</h3>
-<h3 id="les-tableaux-multidimentionnels">Les tableaux multidimentionnels</h3>
-<h3 id="les-tableaux-de-tableaux">Les tableaux de tableaux</h3>
-<h2 id="les-structures-de-controle">Les structures de controle</h2>
-<h3 id="if">if</h3>
-<div class="language-c# highlight"><span class="filename">simple if</span><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">condition</span><span class="p">)</span><span class="w"> </span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="p">{</span><span class="w">  </span>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="c1">// Bloc de code à exécuter si la condition retourne &quot;true&quot;  </span>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="p">}</span><span class="w">  </span>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="k">else</span><span class="w"> </span><span class="nf">if</span><span class="w"> </span><span class="p">(</span><span class="n">condition</span><span class="w"> </span><span class="mi">2</span><span class="p">)</span><span class="w">  </span>
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="p">{</span><span class="w"> </span>
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">    </span><span class="cm">/* bloc de code 2 */</span>
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="p">}</span>
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="k">else</span>
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="p">{</span>
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="w">    </span><span class="cm">/*bloc de code 3*/</span>
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="p">}</span>
-</span></code></pre></div>
-<h3 id="for">for</h3>
-<div class="language-c# highlight"><span class="filename">simple for</span><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="w">   </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">affirmation</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="n">affirmation</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span><span class="w"> </span><span class="n">affirmation</span><span class="w"> </span><span class="mi">3</span><span class="p">)</span><span class="w">  </span>
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">   </span><span class="p">{</span><span class="w">  </span>
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">      </span><span class="c1">// Bloc de code à exécuter si la condition retourne &quot;true&quot;  </span>
-</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">   </span><span class="p">}</span><span class="w">  </span>
-</span></code></pre></div>
-<ul>
-<li>Affirmation 1 est exécuté (une fois) avant l'exécution du bloc de code.  </li>
-<li>Affirmation 2 définie la condition pour que le bloc soit exécuté.  </li>
-<li>Affirmation 3 est exécuté (chaque fois) après que le bloc de code soit exécuté.  </li>
-</ul>
-<h3 id="while">while</h3>
-<div class="language-c# highlight"><span class="filename">simple while</span><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="w">   </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">condition</span><span class="p">)</span><span class="w">  </span>
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">   </span><span class="p">{</span><span class="w">  </span>
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">      </span><span class="c1">// Bloc de code à exécuter si la condition retourne &quot;true&quot;  </span>
-</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">   </span><span class="p">}</span><span class="w">  </span>
-</span></code></pre></div>
-<h3 id="do-while">do while</h3>
-<p><div class="language-c# highlight"><span class="filename">simple do while</span><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="w">   </span><span class="k">do</span><span class="w">  </span>
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">   </span><span class="p">{</span><span class="w">  </span>
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">      </span><span class="c1">// Bloc de code à exécuter si la condition retourne &quot;true&quot;  </span>
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="w">   </span><span class="p">}</span><span class="w"> </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">condition</span><span class="p">)</span><span class="w"> </span>
-</span></code></pre></div>
-* À noter que la boucle sera toujours exécuté 1 fois au minimum</p>
-<h3 id="foreach">foreach</h3>
-<ul>
-<li>En lecture seule seulement, aucune modification de la structure.</li>
-</ul>
-<div class="language-c# highlight"><span class="filename">foreach - pour toutes les valeurs d'une collection</span><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="w">   </span><span class="k">foreach</span><span class="p">(</span><span class="n">LeType</span><span class="w"> </span><span class="n">nomVariable</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="n">laCollectionOuLeTableau</span><span class="p">)</span>
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">      </span><span class="c1">// Bloc de code à exécuter si la condition retourne &quot;true&quot;  </span>
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="w">   </span><span class="p">}</span>
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>
-</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="w">   </span><span class="kt">int</span><span class="p">[]</span><span class="w"> </span><span class="n">lesNombres</span><span class="w"> </span><span class="o">=</span><span class="w">  </span><span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">5</span><span class="w"> </span><span class="p">};</span>
-</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="w">   </span><span class="n">foeach</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">leNombre</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="n">lesNombres</span><span class="p">)</span>
-</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="w">   </span><span class="p">{</span>
-</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a><span class="w">      </span><span class="c1">//utilisation de la varibale &quot;leNombre&quot; qui prendra les valeurs de 1, 3 et 5</span>
-</span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a><span class="w">      </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">leNombre</span><span class="p">);</span><span class="w"> </span><span class="c1">//affichera 1, 3 et 5 en sautant une ligne</span>
-</span><span id="__span-4-10"><a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a><span class="w">   </span><span class="p">}</span><span class="w"> </span>
-</span></code></pre></div>
-<h2 id="visual-studio-et-la-compilation">Visual studio et la compilation</h2>
-<p>Lorsque visual studion fait la compilation de votre programme, soit par l'exécution, soit simplement par la génération (menu générer) le code est converti en langage intermédiaire (Intermediate language "il")  </p>
-<p>Généralement, depuis programmation 1, vous compilez en mode debug.  </p>
-<p>Se faisant votre programme sera compilé et assemblé dans le dossier de votre solution sous [dossier de solution]/[dossier de Projet]/bin/debug/  </p>
-<p><img alt="" src="../images/semaine1_executable.png" /></p>
-<h3 id="execution-dune-application-console-via-linvite-de-commande">Exécution d'une application console via l'invite de commande</h3>
-<p>On peut démarrer l'application en cliquant dessus, mais également en lancant l'exécutable via l'invite de commande.  </p>
-<p>Pour le présent exemple j'ai utilisé "git bash". J'aurais pu utiliser powershell ou encore l'invite de commande standard.</p>
-<p><img alt="" src="../images/semaine1_console.png" /></p>
-<h3 id="public-static-void-mainstring-args">public static void Main(string[] args) ?</h3>
-<div class="language-c# highlight"><span class="filename">Main</span><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="w">   </span><span class="k">public</span><span class="w"> </span><span class="k">static</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">Main</span><span class="p">(</span><span class="kt">string</span><span class="p">[]</span><span class="w"> </span><span class="n">args</span><span class="p">)</span>
-</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="w">   </span><span class="p">{</span>
-</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="w">      </span><span class="c1">// afficher chacun des paramètres à l&#39;écran</span>
-</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="w">      </span><span class="k">foreach</span><span class="p">(</span><span class="kt">string</span><span class="w"> </span><span class="n">parametre</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="n">args</span><span class="p">)</span>
-</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="w">      </span><span class="p">{</span>
-</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a><span class="w">         </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">parametre</span><span class="p">);</span>
-</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="w">      </span><span class="p">}</span>
-</span><span id="__span-5-8"><a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a><span class="w">   </span><span class="p">}</span><span class="w"> </span>
-</span></code></pre></div>
-<p>** notez les choses suivante : **  </p>
-<ul>
-<li>Rien de particulier pour paramètre 1 et 2</li>
-<li>Le paramètre 3 a été coupé en deux à cause de l'espace</li>
-<li>Le paramètre 4 est correct puisqu'il est entre guillemets.</li>
-</ul>
-<p><img alt="" src="../images/semaine1_parametresmain.png" /></p>
-<h3 id="deboguage-avec-visual-studio-et-les-parametres">Déboguage avec visual studio et les paramètres.</h3>
-<p>On peut lancer l'application dans visual studio en simulant que des paramètres ont été insérés dans l'invite de commande.<br />
-pour se faire, on doit aller dans le menu Déboguer -&gt; Propriétés de déboguage de [projet] -&gt; Arguments de la ligne de commande.  </p>
-<p><img alt="" src="../images/semaine1_parametreDeboguage.png" /><br />
-Ou encore dans le menu de déboggage. Par les propriétés du projet.  Les deux sont équivalents.<br />
-<img alt="" src="../images/semaine1_parametresmain2.png" /><br />
-<img alt="" src="../images/semaine1_parametresmain3.png" />  </p>
-<h2 id="exercice-de-revision-p1-p2-utilisation-de-lia-ou-des-travaux-de-p1-interdit">Exercice de révision p1 + p2 (Utilisation de l'ia ou des travaux de P1 interdit)</h2>
-<ol>
-<li>Faites vous un répertoire git avec un .gitignore pour c#.
-Je vous suggère  <a href="https://github.com/github/gitignore/blob/main/VisualStudio.gitignore">celui-ci</a><br />
-0.0 Faites vous un dossier pour travailler.<br />
-0.1 Lancez git bash dans le dossier et lancez -&gt; git init<br />
-0.2 Copiez votre fichier .gitignore dans le dossier<br />
-0.3 Faites git add . <br />
-0.4 Faites git commit -m "Premier commit"<br />
-0.5 Ensuite lancez votre visual studio dans le dossier git.  </li>
-</ol>
-<p><strong>Règles pour vos commit. 1 commit par fonctionnalité terminée et testée.</strong></p>
-<ol>
-<li>
-<p>Faites une méthode Afficher() qui prend en paramètre un tableau d'entiers et qui l'affiche à l'écran.
-Faites le summary associé.  </p>
-</li>
-<li>
-<p>Faites une méthode qui s'appelle Interchanger qui prends en paramètre un tableau d'entier et 2 nombre entiers.<br />
-Les 2 nombres passés en paramètres sont les 2 index qui doivent être interchangé.</p>
-</li>
-</ol>
-<p>Exemple Interchanger(monTableau, index1, index2);  </p>
-<p>Considérant le tableau suivant : 
-{ 10, 20, 30, 40, 50 }<br />
-Considérant les index 0 et 3
-L'invocation de Interchanger(leTableau, 0, 3) interchange les valeurs à l'index 0 et 3 soit :  </p>
-<p>{ 40, 20, 30, 10, 50 }  </p>
-<p>Vous avez vu les trois tris suivants:<br />
-- Tri à bulle<br />
-- Tri selection  <br />
-- Tri insertion  </p>
-<p>Référence : <a href="https://visualgo.net/en/sorting">Visualgo</a></p>
-<p>Codez 3 méthodes avec leurs noms respectifs. Pouvant trié Avec les summarys tels que demandés.  </p>
-<!-- TODO markdown vérifier la suite logique-->
-<ol>
-<li>Faites la codification de du Main de façon à ce que :<br />
-3.1 S'il n'y a aucun paramètres ou si les paramètres sont invalides, l'application se ferme en disant "Paramètre invalide : la syntaxe doit être...."<br />
-3.2 l'application doit avoir comme premier parametres "bulle", "insertion" ou "selection"<br />
-3.3 l'application doit avoir en dernier parametres une série d'entiers à trier.<br />
-3.4 l'application doit utiliser Interchanger  </li>
-</ol>
-<p>Exemple : Trier.exe bulle 5 5 7 8 9 4 5 3 3 10<br />
-Doit afficher :  </p>
-<blockquote>
-<p><img alt="📝" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f4dd.svg" title=":memo:" /> <strong>Résultat</strong><br />
-Tri bulle :<br />
-3 3 4 5 5 5 7 8 9 10</p>
-</blockquote>
-<hr />
-<p>Exemple : Trier.exe bubulle 5 5 7 8 9 4 5 3 3 10<br />
-ou<br />
-Trier.exe bubulle 5 5 7 8 Roger 4 5 3 3 10  </p>
-<p>Doit afficher :  </p>
-<blockquote>
-<p><img alt="📝" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f4dd.svg" title=":memo:" /> <strong>Résultat</strong><br />
-Paramètres invalide : la syntaxe doit être Trier.exe [ bulle | insertion | selection ] {nombres...}</p>
-</blockquote>
-<hr />
+<h1 id="navigation-de-base-en-windows-11">Navigation de base en windows 11</h1>
+<h2 id="lexplorateur-de-fichier">L'explorateur de fichier.</h2>
+<h3 id="ou-trouver-lexplorateur">Où trouver l'explorateur.</h3>
+<p><img alt="" src="../../images/s1i1.png" /><br />
+<img alt="" src="../../images/s1i2.png" /><br />
+<img alt="" src="../../images/s1i3.png" /><br />
+<img alt="" src="../../images/s1i4.png" /><br />
+<img alt="" src="../../images/s1i5.png" /><br />
+<img alt="" src="../../images/s1i6.png" /></p>
+<h3 id="les-options-de-lexplorateur">Les options de l'explorateur.</h3>
+<h3 id="ajouter-et-supprimer-un-acces-rapide">Ajouter et supprimer un accès rapide.</h3>
+<h3 id="fichiers-caches">Fichiers cachés.</h3>
+<h3 id="raccourcis-vers-un-fichier-dossier">Raccourcis vers un fichier / dossier</h3>
 
 
 
