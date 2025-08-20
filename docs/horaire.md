@@ -1,8 +1,8 @@
 # Horaire du cours de programmation 2
  Semaine| Cours | Date | Sections | Matière | Bloc | Travail à faire | Remises 
 --|--|--|--|--|--|--|--
-1|1|2025-08-21|||||
-|2|2025-08-21|||||
+1|1|2025-08-21|||Accueil et cie.||
+|2|2025-08-21|||Explorateur windows et exploration du système d'exploitation||
 
 2|3|2025-08-28|||||
 |4|2025-08-28|||||
@@ -11,10 +11,10 @@
 |6|2025-09-11|||||
 
 4|9|2025-09-18|||||
-|10|2025-09-18|||||
+|10|2025-09-18||||Formatif formel|
 
-5|11|2025-09-25||||Travail 1 (5%)|
-|12|2025-09-25|||||
+5|11|2025-09-25||||Retour formatif formel|
+|12|2025-09-25||||Travail 1 (5%)|
 
 6|13|2025-10-02|||||
 |14|2025-10-02|||||
