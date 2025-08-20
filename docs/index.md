@@ -2,7 +2,8 @@
 ## Introduction
 Vous trouverez ici les notes et exercices du cours. J'ajouterai du nouveau contenu continuellement.
 
-**Préalable à ce cours** : 420-1D6-VI Programmation 1
+**Préalable à ce cours** :  
+Rien du tout
 
 **Ce cours est préalable à** :  
 Rien du tout.
