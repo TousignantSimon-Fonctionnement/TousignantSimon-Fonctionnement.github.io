@@ -50,3 +50,11 @@ article a[href^="https://"]::after
 .md-grid {
   max-width: 100%; /* or 100%, if you want to stretch to full-width */
 }
+
+img {
+  max-width: 100%;
+  width: 600px;  /* ou 400px, selon ta préférence */
+  height: auto;
+  display: block;
+  margin: 1em 0;
+}
