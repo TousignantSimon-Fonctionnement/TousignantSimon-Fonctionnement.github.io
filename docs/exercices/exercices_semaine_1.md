@@ -42,7 +42,7 @@ Voici 10 exercices classés du plus simple au plus avancé, pour maîtriser l’
 
 ### 5. 👻 Afficher les fichiers cachés
 - Active l’option **"Afficher les fichiers cachés"**  
-- Va dans `C:\\Users\\ton_nom\\AppData`  
+- Va dans `C:\Users\ton_nom\AppData`  
 - Explore le dossier `Local` ou `Roaming`  
 - note le dossier est aussi lié au chemin %appdata%  
 
