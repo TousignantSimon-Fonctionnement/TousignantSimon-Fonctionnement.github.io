@@ -41,12 +41,12 @@ Voici 10 exercices classés du plus simple au plus avancé, pour maîtriser l’
 ---
 
 ### 5. 👻 Afficher les fichiers cachés
-- Active l’option **"Afficher les fichiers cachés"**
-- Va dans `C:\Users\ton_nom\AppData`
-- Explore le dossier `Local` ou `Roaming`
-- note le dossier est aussi lié au chemin %appdata%
+- Active l’option **"Afficher les fichiers cachés"**  
+- Va dans `C:\\Users\\ton_nom\\AppData`  
+- Explore le dossier `Local` ou `Roaming`  
+- note le dossier est aussi lié au chemin %appdata%  
 
-> ⚠️ Ne rien modifier dans AppData – simple exploration !
+> ⚠️ Ne rien modifier dans AppData – simple exploration !  
 
 ---
 
@@ -57,7 +57,7 @@ Voici 10 exercices classés du plus simple au plus avancé, pour maîtriser l’
 
 ---
 ### 7. Fichiers spéciaux
-Quel(s) rôle(s) les fichiers suivants ont (Non je ne veux pas de copier collé de google, vous allez devoir chercher pour comprendre le concept en arrière des fichiers.):
+Quel(s) rôle(s) les fichiers suivants ont (Non je ne veux pas de copier collé de google, vous allez devoir chercher pour comprendre le concept en arrière des fichiers.):  
 - hiberfil.sys  
 - pagefile.sys  
 - swapfile.sys  
