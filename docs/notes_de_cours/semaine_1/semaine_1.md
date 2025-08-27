@@ -5,20 +5,20 @@
 ### Où trouver l'explorateur.
 
 Via les racourcis graphique.  
-![](../images/s1i1.png)  
+![](../../images/s1i1.png)  
 Via le menu démarrer.  
-![](../images/s1i2.png)  
+![](../../images/s1i2.png)  
 Par raccourcis clavier.  
-![](../images/s1i3.png)  
+![](../../#images/s1i3.png)  
   
 ### Les dossier accès rapide
 Par clique de droit sur un dossier, on peut épingler un dossier pour y avoir accès rapidement.  
-![](../images/s1i7.png)    
+![](../../images/s1i7.png)    
 Résultat :
-![](../images/s1i8.png)  
+![](../../images/s1i8.png)  
     
 Pour désépingler on clique également de droit sur le dossier.
-![](../images/s1i9.png)  
+![](../../images/s1i9.png)  
 
 # 🧭 Utilisation de l'explorateur Windows
 

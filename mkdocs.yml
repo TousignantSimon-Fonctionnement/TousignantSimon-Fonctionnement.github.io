@@ -7,9 +7,11 @@ use_directory_urls: true
 nav:
    - 'Accueil': index.md  
    - 'Horaire': horaire.md
-   - 'Semaine 1': notes_de_cours/semaine_1.md
+   - 'Semaine 1': notes_de_cours/semaine_1/semaine_1.md
+   - 'Semaine 2': notes_de_cours/semaine_2/semaine_2.md
    - 'Exercices': 
-      - Exercice 1 : exercices/exercices_semaine_1.md
+      - Semaine 1 : exercices/exercices_semaine_1.md
+      - Semaine 2 : exercices/exercices_semaine_2.md
    - 'Logiciels requis': logiciels_requis.md
       
 theme:
