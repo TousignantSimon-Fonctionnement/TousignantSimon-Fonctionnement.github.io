@@ -3,7 +3,7 @@
 --|--|--|--|--|--|--|--
 1|1|2025-08-21|||Accueil et cie.||
 |2|2025-08-21|||Explorateur windows et exploration du système d'exploitation||
-2|3|2025-08-28|||||
+2|3|2025-08-28|||Personnalisation de la barre des tâches et de l'affichage||
 |4|2025-08-28|||||
 3|5|2025-09-11|||||
 |6|2025-09-11|||||
