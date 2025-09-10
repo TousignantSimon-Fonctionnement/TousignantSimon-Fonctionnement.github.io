@@ -60,10 +60,10 @@ Désactiver par application
    - Faites un clic droit sur **Invite de commandes** et choisissez **Exécuter en tant qu’administrateur**.
 
 2. Copiez-collez la commande suivante et appuyez sur **Entrée** pour appliquer la modification :
+  
 
-```bat
 reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
-``  
+
 
 ## Qu'est-ce qu'un Éditeur de Registre et à quoi ça sert ?
 
