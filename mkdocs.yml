@@ -10,6 +10,12 @@ nav:
    - 'Semaine 1': notes_de_cours/semaine_1/semaine_1.md
    - 'Semaine 2': notes_de_cours/semaine_2/semaine_2.md
    - 'Semaine 3': notes_de_cours/semaine_3/semaine_3.md
+   - 'Semaine 5': notes_de_cours/semaine_5/semaine_5.md
+   - 'Semaine 8': 
+      - Laboratoire automatisé avec générateur en ligne : notes_de_cours/semaine_8/semaine_8_laboratoire_unattend.md
+   - 'Semaine 9': 
+      - Installation sans aide : notes_de_cours/semaine_9/semaine_9_unattended.md 
+      - Installation de logiciels avec winget : notes_de_cours/semaine_9/semaine_9_winget.md
    - 'Exercices': 
       - Semaine 1 : exercices/exercices_semaine_1.md
       - Semaine 2 : exercices/exercices_semaine_2.md

@@ -19,3 +19,4 @@ L’outil permet de configurer :
 - Le fichier Word tel que défini en classe 
 
 Bonne réussite !  
+ [Documentation post-laboratoire](https://www.it-connect.fr/windows-11-personnaliser-installation-avec-fichier-de-reponse/)  
