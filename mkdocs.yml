@@ -17,12 +17,19 @@ nav:
       - Installation sans aide : notes_de_cours/semaine_9/semaine_9_unattended.md 
       - Installation de logiciels avec winget : notes_de_cours/semaine_9/semaine_9_winget.md
       - Laboratoire : notes_de_cours/semaine_9/semaine_9_laboratoire.md
+   - 'Semaine 10': notes_de_cours/semaine_10/semaine_10.md
+   - 'Semaine 10/11 laboratoire': notes_de_cours/semaine_11/laboratoire.md
+   - 'Semaine 12':
+      - 'Mise-à-jour': notes_de_cours/semaine_12/mise_a_jour.md
+      - 'Installation de logiciels via apt': notes_de_cours/semaine_12/installation_logiciels_apt.md
+      - 'Installation de logiciels via .deb': notes_de_cours/semaine_12/installation_logiciels_deb.md
+      - 'Utilitaires': notes_de_cours/semaine_12/utilitaires.md
+      - 'Structure des fichiers': notes_de_cours/semaine_12/structure_fichiers.md
    - 'Exercices': 
       - Semaine 1 : exercices/exercices_semaine_1.md
       - Semaine 2 : exercices/exercices_semaine_2.md
    - 'Logiciels requis': logiciels_requis.md
    - 'Raccourcis clavier' : raccourcis_clavier.md
-      
 theme:
   name: material
   icon:

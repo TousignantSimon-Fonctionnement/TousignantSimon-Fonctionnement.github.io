@@ -2,3 +2,4 @@ venv
 site
 .DS_Store
 docs/.vs/slnx.sqlite
+gemini.md
