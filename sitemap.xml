@@ -2,58 +2,86 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://tousignantsimon-Fonctionnement.github.io/</loc>
-         <lastmod>2025-10-30</lastmod>
+         <lastmod>2025-11-27</lastmod>
     </url>
     <url>
          <loc>https://tousignantsimon-Fonctionnement.github.io/horaire/</loc>
-         <lastmod>2025-10-30</lastmod>
+         <lastmod>2025-11-27</lastmod>
     </url>
     <url>
          <loc>https://tousignantsimon-Fonctionnement.github.io/logiciels_requis/</loc>
-         <lastmod>2025-10-30</lastmod>
+         <lastmod>2025-11-27</lastmod>
     </url>
     <url>
          <loc>https://tousignantsimon-Fonctionnement.github.io/raccourcis_clavier/</loc>
-         <lastmod>2025-10-30</lastmod>
+         <lastmod>2025-11-27</lastmod>
     </url>
     <url>
          <loc>https://tousignantsimon-Fonctionnement.github.io/exercices/exercices_semaine_1/</loc>
-         <lastmod>2025-10-30</lastmod>
+         <lastmod>2025-11-27</lastmod>
     </url>
     <url>
          <loc>https://tousignantsimon-Fonctionnement.github.io/exercices/exercices_semaine_2/</loc>
-         <lastmod>2025-10-30</lastmod>
+         <lastmod>2025-11-27</lastmod>
     </url>
     <url>
          <loc>https://tousignantsimon-Fonctionnement.github.io/notes_de_cours/semaine_1/semaine_1/</loc>
-         <lastmod>2025-10-30</lastmod>
+         <lastmod>2025-11-27</lastmod>
+    </url>
+    <url>
+         <loc>https://tousignantsimon-Fonctionnement.github.io/notes_de_cours/semaine_10/semaine_10/</loc>
+         <lastmod>2025-11-27</lastmod>
+    </url>
+    <url>
+         <loc>https://tousignantsimon-Fonctionnement.github.io/notes_de_cours/semaine_11/laboratoire/</loc>
+         <lastmod>2025-11-27</lastmod>
+    </url>
+    <url>
+         <loc>https://tousignantsimon-Fonctionnement.github.io/notes_de_cours/semaine_12/installation_logiciels_apt/</loc>
+         <lastmod>2025-11-27</lastmod>
+    </url>
+    <url>
+         <loc>https://tousignantsimon-Fonctionnement.github.io/notes_de_cours/semaine_12/installation_logiciels_deb/</loc>
+         <lastmod>2025-11-27</lastmod>
+    </url>
+    <url>
+         <loc>https://tousignantsimon-Fonctionnement.github.io/notes_de_cours/semaine_12/mise_a_jour/</loc>
+         <lastmod>2025-11-27</lastmod>
+    </url>
+    <url>
+         <loc>https://tousignantsimon-Fonctionnement.github.io/notes_de_cours/semaine_12/structure_fichiers/</loc>
+         <lastmod>2025-11-27</lastmod>
+    </url>
+    <url>
+         <loc>https://tousignantsimon-Fonctionnement.github.io/notes_de_cours/semaine_12/utilitaires/</loc>
+         <lastmod>2025-11-27</lastmod>
     </url>
     <url>
          <loc>https://tousignantsimon-Fonctionnement.github.io/notes_de_cours/semaine_2/semaine_2/</loc>
-         <lastmod>2025-10-30</lastmod>
+         <lastmod>2025-11-27</lastmod>
     </url>
     <url>
          <loc>https://tousignantsimon-Fonctionnement.github.io/notes_de_cours/semaine_3/semaine_3/</loc>
-         <lastmod>2025-10-30</lastmod>
+         <lastmod>2025-11-27</lastmod>
     </url>
     <url>
          <loc>https://tousignantsimon-Fonctionnement.github.io/notes_de_cours/semaine_5/semaine_5/</loc>
-         <lastmod>2025-10-30</lastmod>
+         <lastmod>2025-11-27</lastmod>
     </url>
     <url>
          <loc>https://tousignantsimon-Fonctionnement.github.io/notes_de_cours/semaine_8/semaine_8_laboratoire_unattend/</loc>
-         <lastmod>2025-10-30</lastmod>
+         <lastmod>2025-11-27</lastmod>
     </url>
     <url>
          <loc>https://tousignantsimon-Fonctionnement.github.io/notes_de_cours/semaine_9/semaine_9_laboratoire/</loc>
-         <lastmod>2025-10-30</lastmod>
+         <lastmod>2025-11-27</lastmod>
     </url>
     <url>
          <loc>https://tousignantsimon-Fonctionnement.github.io/notes_de_cours/semaine_9/semaine_9_unattended/</loc>
-         <lastmod>2025-10-30</lastmod>
+         <lastmod>2025-11-27</lastmod>
     </url>
     <url>
          <loc>https://tousignantsimon-Fonctionnement.github.io/notes_de_cours/semaine_9/semaine_9_winget/</loc>
-         <lastmod>2025-10-30</lastmod>
+         <lastmod>2025-11-27</lastmod>
     </url>
 </urlset>
